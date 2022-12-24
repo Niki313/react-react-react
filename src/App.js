@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>jjjjjjjjj </p>
+        <p>👋 Hi  </p>
         <Weather city="Tokyo" />
       </header>
     </div>
