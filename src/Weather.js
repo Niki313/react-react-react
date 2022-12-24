@@ -1,6 +1,6 @@
 import React  from "react";
 import axios from "axios";
-import { Audio } from 'react-loader-spinner';
+import { Triangle } from 'react-loader-spinner';
 
 
 export default function Weather(props) {
@@ -17,15 +17,15 @@ export default function Weather(props) {
 
         return (
             <div>
-                <Audio
+                <Triangle
                     height="80"
                     width="80"
-                    radius="9"
                     color="violet"
-                    ariaLabel="loading"
-                    wrapperStyle
-                    wrapperClass
-                />   
+                    ariaLabel="triangle-loading"
+                    wrapperStyle={{}}
+                    wrapperClassName=""
+                    visible={true}
+                />
             </div>
                 );
 }
